@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+        <link rel="stylesheet" type="text/css" href="main.css">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="main.js"></script>
+<link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+<title>Eyny.Co</title>
+</head>
+<body>
+        <header>
+                <nav class="navbar">
+                        <h1 class="titleedits">Eyny.Co's <span class=smalltitleedit>Offical Page</span></h1>
+                    <ul class="navlinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="aboutme.html">About Me</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul> 
+                    <img src="image/logo.jpg" style="width:120px; height: 70px; border-left: solid white 1px; border-right: solid white 1px;">
+                    <ul class="navlinks">
+                            <li><a href="#">Personal Statement</a></li>
+                            <li><a href="#">Photography</a></li>
+                        </ul>
+                </nav>
+            </header>
+        
+
+
+
+
+
+
+
+<div class="slideshow-container">
+
+<div class="cutoff">
+    <div class="mySlides fade container">
+    <img src="image/offjordan.jpg" class="slideshowimg">
+    <div class="overlay">
+        <div class="text1"><a class="underlink" href="#">Off-White x Jordan 1 'Chicago'</a></div>
+    </div>    
+</div>
+
+    <div class="mySlides fade container">
+    <img src="image/rolex.jpg" class="slideshowimg">
+    <div class="overlay">
+        <div class="text1"><a class="underlink" href="#"> Black & Green steel faced Rolex</a></div>
+    </div>   
+</div>
+
+    <div class="mySlides fade container">
+    <img src="image/converse.jpg" class="slideshowimg">
+    <div class="overlay">
+        <div class="text1"><a class="underlink" href="#">Off-White x Chuck 70 'White'</a></div>
+    </div>  
+</div>
+
+<div class="mySlides fade container">
+    <img src="image/balenciagabag.jpg" class="slideshowimg">
+    <div class="overlay">
+        <div class="text1"><a class="underlink" href="#">Balenciaga Bag</a></div>
+    </div>   
+</div>
+
+<div class="mySlides fade container">
+    <img src="image/guccisnake.jpg" class="slideshowimg">
+    <div class="overlay">
+        <div class="text1"><a class="underlink" href="#">Gucci Supreme Kingsnake Wallet</a></div>
+    </div>   
+</div>
+
+<div class="mySlides fade container">
+    <img src="image/humanrace.JPG" class="slideshowimg">
+    <div class="overlay">
+        <div class="text1"><a class="underlink" href="#">Human Race x Pharrell</a></div>
+    </div>   
+</div>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    </div>
+</div>
+
+
+ <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+ <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+ <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html> 
+
