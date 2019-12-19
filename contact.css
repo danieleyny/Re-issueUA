@@ -71,7 +71,7 @@ body {
   }
   .navlinks li {
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 15px;
     
   }
   .navlinks li a {
@@ -102,12 +102,12 @@ body {
   .titleedits {
     font-family: 'ZCOOL XiaoWei', serif;
     color: rgb(226, 211, 211);
-    font-size: 35.5px;
+    font-size: 32.5px;
 }
 .smalltitleedit {
     color:rgb(141, 106, 106);
     font-family: 'Liu Jian Mao Cao', cursive;
-    font-size: 25px;
+    font-size: 22px;
 }
 .slideshowimg {
     width:100%;
@@ -130,7 +130,8 @@ body {
     font-size: 16px;
     text-align: center;
     padding: 15px 25px;
-}
+    
+  }
 .socialslist {
     color:lightblue;
     font-size: 50px;

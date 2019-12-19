@@ -76,12 +76,12 @@ img {vertical-align: middle;}
 .titleedits {
     font-family: 'ZCOOL XiaoWei', serif;
     color: rgb(226, 211, 211);
-    font-size: 35.5px;
+    font-size: 32.5px;
 }
 .smalltitleedit {
     color:rgb(141, 106, 106);
     font-family: 'Liu Jian Mao Cao', cursive;
-    font-size: 25px;
+    font-size: 22px;
 }
 .cutoff {
     background-color:grey;
@@ -116,7 +116,7 @@ img {vertical-align: middle;}
   
   .text1 {
     color: white;
-    font-size: 56px;
+    font-size: 45px;
     font-family: 'Lobster', cursive;
     position: absolute;
     top: 50%;
@@ -196,7 +196,7 @@ img {vertical-align: middle;}
   }
   .navlinks li {
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 15px;
   }
   .navlinks li a {
     transition: all 0.3s ease 0s;
