@@ -1,0 +1,203 @@
+body {
+    background-color: rgb(19, 18, 18);
+}
+ .text1 {
+    color: white;
+    font-size: 56px;
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    top: 50%;
+    Width: 70%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  a {
+    background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 3px 3px;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-position: 0 100%;
+    background-size: auto 6px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+  }
+  .underlink {
+    color: lightblue; 
+    height: 650px;
+  }
+  .underlink:hover {
+    background-position: 0 100%;
+    background-size: auto 6px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  }
+  * {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background-color: black;
+    width:100%;
+    font-size: 24px;
+    border-bottom: solid white 1px;
+  
+  }
+  .shopbutton {
+    background-color: black;
+    height: 55px;
+    width: 155px;
+    font-size: 22px;
+    color: whitesmoke;
+    font-family: 'ZCOOL XiaoWei', serif;
+    margin-right: 50px;
+  }
+  .navlinks {
+    list-style: none;
+    display: flex;
+  }
+  .navlinks li {
+    display: inline-block;
+    padding: 0px 20px;
+    
+  }
+  .navlinks li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: white;
+    padding: 30px 12px;
+    font-size: 22px;
+    font-family: 'ZCOOL XiaoWei', serif;
+
+  }
+  .shopbutton:hover {
+    background-color: lightblue;
+    color: rgb(78, 76, 76);
+  }
+  .navlinks li a:hover {
+    color: rgb(78, 76, 76);
+    background-color: rgb(173, 216, 230);
+  }
+  button {
+    padding: 9px 25px;
+    background-color: rgba(96, 219, 250,1);
+    border:none;
+    border-radius: 30%;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  .titleedits {
+    font-family: 'ZCOOL XiaoWei', serif;
+    color: rgb(226, 211, 211);
+    font-size: 35.5px;
+}
+.smalltitleedit {
+    color:rgb(141, 106, 106);
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-size: 25px;
+}
+.slideshowimg {
+    width:100%;
+    height:15px;
+}
+.danielsocials {
+    color: rgb(202, 173, 120);
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 37px;
+
+}
+.socialjob {
+    font-family: 'Liu Jian Mao Cao', cursive;
+    color: rgba(219, 129, 241, 0.7);
+    font-size: 28px;
+
+}
+.contacttext {
+    color:whitesmoke;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px 25px;
+}
+.socialslist {
+    color:lightblue;
+    font-size: 50px;
+    text-align: center;
+    float: right;
+    margin-right: 20%;
+    list-style: none;
+    padding:25px;
+    
+}
+.socialslistmain {
+    color:lightblue;
+    font-size: 50px;
+    text-align: center;
+    float: center;
+    list-style: none;
+    padding:25px;
+    
+}
+.socialslist2 {
+    color:lightblue;
+    font-size: 50px;
+    text-align: center;
+    float: left;
+    margin-left: 20%;
+    list-style: none;
+    padding:25px;
+
+}
+  .socials {
+    color: lightblue;
+    font-size: 25px;
+    text-align: center;
+  }
+  .socials:hover {
+    color: white;
+    font-weight: 900;
+  }
+  .socialstitle {
+    color: rgb(202, 173, 120);
+    font-size: 30px;
+    text-align: center;
+    margin-left: 15px;
+    font-family: georgia;
+    margin-bottom: -15px;
+    font-style: oblique;
+  }
+
+
+
+
+
+
+
+
+  @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+$timing        : 265ms;
+$iconColor     : #00B5F5;
+$accent        : #002A8F;
+$bluefade      : #0043E0;
+$gradient      : #00B5F5;
+
+@mixin transformScale($size: 1) {
+    transform: scale($size);
+    -ms-transform: scale($size);
+    -webkit-transform: scale($size);
+}
+
+

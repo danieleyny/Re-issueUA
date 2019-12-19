@@ -169,6 +169,16 @@ img {vertical-align: middle;}
     border-bottom: solid white 1px;
   
   }
+  .shopbutton {
+    background-color: black;
+    height: 55px;
+    width: 155px;
+    font-size: 22px;
+    color: whitesmoke;
+    font-family: 'ZCOOL XiaoWei', serif;
+    margin-right: 50px;
+
+  }
   .logo {
     cursor: pointer;
     float: left;
@@ -187,16 +197,19 @@ img {vertical-align: middle;}
   .navlinks li {
     display: inline-block;
     padding: 0px 20px;
-    
   }
   .navlinks li a {
     transition: all 0.3s ease 0s;
     text-decoration: none;
     color: white;
     padding: 30px 12px;
-    font-size: 20px;
+    font-size: 22px;
     font-family: 'ZCOOL XiaoWei', serif;
 
+  }
+  .shopbutton:hover {
+    background-color: lightblue;
+    color: rgb(78, 76, 76);
   }
   .navlinks li a:hover {
     color: rgb(78, 76, 76);
@@ -207,14 +220,11 @@ img {vertical-align: middle;}
     padding: 9px 25px;
     background-color: rgba(96, 219, 250,1);
     border:none;
-    border-radius: 20%;
+    border-radius: 30%;
     cursor: pointer;
     transition: all 0.3s ease 0s;
   }
-  button:hover {
-    background-color: rgba(96, 219, 250,0.5);
-    
-  }
+  
   .logsituation {
     text-align:center;
     background-color: rgb(94, 93, 93);
