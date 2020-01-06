@@ -113,6 +113,72 @@ body {
     width:100%;
     height:15px;
 }
+.danielsocials {
+    color: rgb(202, 173, 120);
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 35px;
+
+}
+.socialjob {
+    font-family: 'Liu Jian Mao Cao', cursive;
+    color: rgba(219, 129, 241, 0.7);
+    font-size: 22px;
+
+}
+.contacttext {
+    color:whitesmoke;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px 25px;
+    
+  }
+.socialslist {
+    color:lightblue;
+    font-size: 50px;
+    text-align: center;
+    float: right;
+    margin-right: 15%;
+    list-style: none;
+    padding:25px;
+    
+}
+.socialslistmain {
+    color:lightblue;
+    font-size: 50px;
+    text-align: center;
+    float: center;
+    list-style: none;
+    padding:25px;
+    
+}
+.socialslist2 {
+    color:lightblue;
+    font-size: 50px;
+    text-align: center;
+    float: left;
+    margin-left: 15%;
+    list-style: none;
+    padding:25px;
+
+}
+  .socials {
+    color: lightblue;
+    font-size: 22px;
+    text-align: center;
+  }
+  .socials:hover {
+    color: white;
+    font-weight: 900;
+  }
+  .socialstitle {
+    color: rgb(202, 173, 120);
+    font-size: 30px;
+    text-align: center;
+    margin-left: 15px;
+    font-family: georgia;
+    margin-bottom: -15px;
+    font-style: oblique;
+  }
 
 
 
@@ -121,6 +187,18 @@ body {
 
 
 
+  @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
+$timing        : 265ms;
+$iconColor     : #00B5F5;
+$accent        : #002A8F;
+$bluefade      : #0043E0;
+$gradient      : #00B5F5;
+
+@mixin transformScale($size: 1) {
+    transform: scale($size);
+    -ms-transform: scale($size);
+    -webkit-transform: scale($size);
+}
 
 
