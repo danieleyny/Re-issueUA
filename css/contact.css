@@ -60,7 +60,7 @@ body {
     background-color: black;
     height: 55px;
     width: 155px;
-    font-size: 22px;
+    font-size: 20px;
     color: whitesmoke;
     font-family: 'ZCOOL XiaoWei', serif;
     margin-right: 50px;
@@ -186,19 +186,5 @@ body {
 
 
 
-
-  @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
-
-$timing        : 265ms;
-$iconColor     : #00B5F5;
-$accent        : #002A8F;
-$bluefade      : #0043E0;
-$gradient      : #00B5F5;
-
-@mixin transformScale($size: 1) {
-    transform: scale($size);
-    -ms-transform: scale($size);
-    -webkit-transform: scale($size);
-}
 
 

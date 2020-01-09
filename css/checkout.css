@@ -60,7 +60,7 @@ body {
     background-color: black;
     height: 55px;
     width: 155px;
-    font-size: 19px;
+    font-size: 20px;
     color: whitesmoke;
     font-family: 'ZCOOL XiaoWei', serif;
     margin-right: 50px;
@@ -113,39 +113,31 @@ body {
     width:100%;
     height:15px;
 }
-
-
-
-
-
-
-
-
-
-
-.infotitles{
-  color: rgb(255, 255, 255);
-  font-size: 26px;
-  text-align: center;
-  font-family: 'Ma Shan Zheng', cursive;
-  margin-top: 45px;
-}
-.moreinfo {
-  font-size: 17px;
-  color: rgb(99, 97, 86);
-  width: 850px;
-  text-align: center;
-  margin: 5px 9%;
-}
-.infopagetitle {
-  font-size: 45px;
-  font-family: 'Source Serif Pro', serif;
-  color:lightblue;
+.categories {
+  color: white;
+  font-size: 30px;
   text-align: center;
 }
-.headshot{
-  height: 70px;
-  width: 85px;
-  margin: 15px 47%;
-  border-color: aliceblue;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
