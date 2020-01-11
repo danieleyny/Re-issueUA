@@ -2,14 +2,16 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Checkout</title>
+    <title>Contact Us</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/checkout.css">
     <script src="main.js"></script>
     <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|EB+Garamond&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 </head>
 <body>
         <header>
@@ -27,7 +29,168 @@
                     </ul>
                 </nav>
             </header>
-        
+            <img src="image/navbarclear.jpg" class="slideshowimg"/>
+
+           
+                
+                <br />
+                <br />
+                
+                <h1 class="orders-title1"> Order Requests</h1>
+                <br/>
+                <form class="form-container" action="https://formspree.io/mrgpgdrp" method="POST">
+                <br/>
+                <h class=" customform-title">Preferred Form Of Contact</h>
+                <br/>
+                <label class="formlabel">
+                        Your Phone Number: 
+                        <input style="font-family: 'EB Garamond', serif" class="input-setup" type="checkbox" name="Contact - Number" placeholder="Phone # (optional)">
+                    </label>
+                    <br/>
+                    <label class="formlabel">
+                            Your Email: 
+                            <input style="font-family: 'EB Garamond', serif" class="input-setup" type="checkbox" name="Contact - Email" placeholder="Phone # (optional)">
+                        </label>
+                
+                    <br/>
+                   
+                
+                <label class="formlabel">
+                        Your Email Address: 
+                        <input class="input-setup" type="email" name="Email" placeholder="Hypebeast@gmail.com" required>
+                      </label>
+                      <br/>
+                      <label class="formlabel">
+                            Your Phone Number: 
+                            <input style="font-family: 'EB Garamond', serif" class="input-setup" type="number" name="Phone Number" placeholder="Phone # (optional)">
+                        </label>
+                            
+                      <br/>
+                      <label class="formlabel">
+                        Product Of Interest: 
+                        <input class="input-setup" type="text" name="Product" placeholder="Name Of The Product" >
+                      </label>
+                      <br/>
+                      
+                      <label class="formlabel">
+                            Shoe Size (if applicable): 
+                            <input class="input-setup" type="number" name="Shoe Size" placeholder="Size" >
+                          </label>
+                          <br/>
+
+
+                      <div class="custom-select" style="width:200px;">
+                            <select>
+                              <option value="0">Payment Method:</option>
+                              <option value="1">Paypal</option>
+                              <option value="2">Venmo</option>
+                              <option value="3">Cashapp</option>
+                            </select>
+                          </div>
+
+                      
+
+
+
+
+
+
+                        <textarea class="input-textarea" name="Question" placeholder="Additional Questions"></textarea>
+                        <textarea class="input-textarea" name="Message" placeholder="Additional Comments or Requests"></textarea>
+                    
+                    <br/>
+                    <div class="alert1">
+                            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+                            Once your order request is submitted it will be reviewed and responded to finalize and confirm the order. Once the payment goes through and any external information is sent, your product will be shipped out.
+                        </div>      <!-- your other form fields go here -->
+                    <br/>
+                      <button class="questionsubmit" type="submit">Submit</button>
+                    </form>
+                  
+<br/><br/>
+
+<h1 class="orders-title">Custom Order Requests</h1>
+<br/>
+<form class="form-container" action="https://formspree.io/xdoeoyja" method="POST">
+<br/>
+<h class=" customform-title">Preferred Form Of Contact</h>
+<br/>
+<label class="formlabel">
+        Your Phone Number: 
+        <input style="font-family: 'EB Garamond', serif" class="input-setup" type="checkbox" name="Contact - Number" placeholder="Phone # (optional)">
+    </label>
+    <br/>
+    <label class="formlabel">
+            Your Email: 
+            <input style="font-family: 'EB Garamond', serif" class="input-setup" type="checkbox" name="Contact - Email" placeholder="Phone # (optional)">
+        </label>
+
+    <br/>
+   
+
+<label class="formlabel">
+        Your Email Address: 
+        <input class="input-setup" type="email" name="Email" placeholder="Hypebeast@gmail.com" required>
+      </label>
+      <br/>
+      <label class="formlabel">
+            Your Phone Number: 
+            <input style="font-family: 'EB Garamond', serif" class="input-setup" type="number" name="Phone Number" placeholder="Phone # (optional)">
+        </label>
+            
+      <br/>
+      <label class="formlabel">
+        Custom Product Of Interest: 
+        <input class="input-setup" type="text" name="Custom Product" placeholder="Name Of The Product" >
+      </label>
+      <br/>
+      
+        <textarea class="input-textarea" name="Question" placeholder="Additional Questions"></textarea>
+        <textarea class="input-textarea" name="Message" placeholder="Additional Comments or Information"></textarea>
+    
+    <br/>
+    <div class="alert">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+            If we can find the product that you are looking for, we will reach out to you on your preferred way of getting contacted to notify you and to move forward with the purchase. (size, shipping address, preferred payment method etc…)
+        </div>      <!-- your other form fields go here -->
+    <br/>
+      <button class="questionsubmit" type="submit">Submit</button>
+    </form>
+    <br /><br />
+
+
+
+
+   
+ 
+
+    <style>
+            .alert {
+              opacity: 1;
+              transition: opacity 0.6s; /* 600ms to fade out */
+            }
+            </style>
+
+    <script>
+            // Get all elements with class="closebtn"
+            var close = document.getElementsByClassName("closebtn");
+            var i;
+            
+            // Loop through all close buttons
+            for (i = 0; i < close.length; i++) {
+              // When someone clicks on a close button
+              close[i].onclick = function(){
+            
+                // Get the parent of <span class="closebtn"> (<div class="alert">)
+                var div = this.parentElement;
+            
+                // Set the opacity of div to 0 (transparent)
+                div.style.opacity = "0";
+            
+                // Hide the div after 600ms (the same amount of milliseconds it takes to fade out)
+                setTimeout(function(){ div.style.display = "none"; }, 600);
+              }
+            }
 
 
 
@@ -35,5 +198,79 @@
 
 
 
+
+            var x, i, j, selElmnt, a, b, c;
+/*look for any elements with the class "custom-select":*/
+x = document.getElementsByClassName("custom-select");
+for (i = 0; i < x.length; i++) {
+  selElmnt = x[i].getElementsByTagName("select")[0];
+  /*for each element, create a new DIV that will act as the selected item:*/
+  a = document.createElement("DIV");
+  a.setAttribute("class", "select-selected");
+  a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+  x[i].appendChild(a);
+  /*for each element, create a new DIV that will contain the option list:*/
+  b = document.createElement("DIV");
+  b.setAttribute("class", "select-items select-hide");
+  for (j = 1; j < selElmnt.length; j++) {
+    /*for each option in the original select element,
+    create a new DIV that will act as an option item:*/
+    c = document.createElement("DIV");
+    c.innerHTML = selElmnt.options[j].innerHTML;
+    c.addEventListener("click", function(e) {
+        /*when an item is clicked, update the original select box,
+        and the selected item:*/
+        var y, i, k, s, h;
+        s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+        h = this.parentNode.previousSibling;
+        for (i = 0; i < s.length; i++) {
+          if (s.options[i].innerHTML == this.innerHTML) {
+            s.selectedIndex = i;
+            h.innerHTML = this.innerHTML;
+            y = this.parentNode.getElementsByClassName("same-as-selected");
+            for (k = 0; k < y.length; k++) {
+              y[k].removeAttribute("class");
+            }
+            this.setAttribute("class", "same-as-selected");
+            break;
+          }
+        }
+        h.click();
+    });
+    b.appendChild(c);
+  }
+  x[i].appendChild(b);
+  a.addEventListener("click", function(e) {
+      /*when the select box is clicked, close any other select boxes,
+      and open/close the current select box:*/
+      e.stopPropagation();
+      closeAllSelect(this);
+      this.nextSibling.classList.toggle("select-hide");
+      this.classList.toggle("select-arrow-active");
+    });
+}
+function closeAllSelect(elmnt) {
+  /*a function that will close all select boxes in the document,
+  except the current select box:*/
+  var x, y, i, arrNo = [];
+  x = document.getElementsByClassName("select-items");
+  y = document.getElementsByClassName("select-selected");
+  for (i = 0; i < y.length; i++) {
+    if (elmnt == y[i]) {
+      arrNo.push(i)
+    } else {
+      y[i].classList.remove("select-arrow-active");
+    }
+  }
+  for (i = 0; i < x.length; i++) {
+    if (arrNo.indexOf(i)) {
+      x[i].classList.add("select-hide");
+    }
+  }
+}
+/*if the user clicks anywhere outside the select box,
+then close all select boxes:*/
+document.addEventListener("click", closeAllSelect);
+            </script>
 </body>
 </html> 

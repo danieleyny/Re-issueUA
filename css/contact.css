@@ -220,7 +220,33 @@ text-align: center;
   padding: 5px;
 }
 
+.questionsubmit {
+  padding: 10px 27px;
+    background-color: rgba(96, 219, 250,1);
+    border:none;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 18px;
+    font-family: 'Cormorant Garamond', serif
+}
 
+.questionsubmit:hover {
+  background-color: rgba(96, 219, 250,.5);
+}
+
+.customform-title {
+  color: white; 
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18px;
+  text-decoration: underline;
+  text-decoration-color: rgb(218, 150, 218);
+  cursor: default;
+}
+.furtherinfo-text {
+  color: white;
+  font-size: 12px;
+}
 
 
 
